@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h3>Enter Details</h3><br>
+        <form action="index.php" method="post">
+            <input type="text" name="name" id="name" placeholder="Enter Full Name">
+            <input type="number" name="age" id="age" placeholder="Enter Age">
+            <input type="text" name="gender" id="gender" placeholder="Enter Gender">
+            <input type="date" name="dob" id="dob" placeholder="Enter Date Of Birth">
+            <input type="email" name="email" id="email" placeholder="Enter Email">
+            <button id="submit">SUBMIT</button>
+            <button id="clear">CLEAR</button>
+        </form>
+    </div>
+
+
+    
+    <!-- INSERT INTO `details1` (`sno`, `name`, `age`, `gender`, `dob`, `email`, `time`) VALUES ('0', 'Soubhagya Prusty', '22', 'male', '2023-10-01', 'soubhagya@gmail.com', 'current_timestamp()'); -->
+    
+    <script src="script.js"></script>
+</body>
+</html>
