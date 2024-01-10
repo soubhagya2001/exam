@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.parent{
+    height: 180vh;
+    width: 100vw;
+    display: flex;
+}
+
+.parent .sideBar{
+    width: 30%;
+    height: 100%;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: flex-start;
+    padding-left: 30px;
+}
+
+.parent .mainContent{
+    width: 70%;
+    height: 100%;
+    background: grey;
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sideBar img{
+   height: 150px;
+   width: 150px;
+   border-radius: 50%;
+   margin-top: 10%;
+   margin-bottom: 5%;
+   border: 2px solid white;
+   padding: 2px;
+   align-self: center;
+   padding-left: 0;
+}
+
+h4{
+    color: white;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.details{
+    margin-top: 10px;
+    
+}
+
+.details i{
+    color: white;
+    font-size: 20px;
+}
+
+.details i span{
+    font-size: medium;
+    margin-left: 5px;
+}
+
+.details span{
+    color: white;
+    font-size: medium;
+    margin-left: 5px;
+}
+
+.objective{
+    padding: 10px 10px 10px 10px;
+    align-items: flex-start;
+    /* margin-left: 20px; */
+}
+
+.sideBar ul{
+    padding-left: 30px;
+}
+
+.mainContent h1{
+    font-size: 60px;
+}
+
+.mainContent h3{
+    font-size: 40px;
+}
+
+.mainContent h4{
+    font-size: 27px;
+}
+
+
+
+
+
